@@ -1,0 +1,96 @@
+# API call for adding two numbers
+###
+POST http://127.0.0.1:8000/addition/
+Content-Type: application/json
+
+{
+  "num1" : 100,
+  "num2" :25
+}
+
+###
+POST http://127.0.0.1:8000/subtraction/
+Content-Type: application/json
+
+{
+  "num1" : 100,
+  "num2" :25
+}
+
+###
+POST http://127.0.0.1:8000/multiplication/
+Content-Type: application/json
+
+{
+  "num1" : 100,
+  "num2" : 25
+}
+
+###
+POST http://127.0.0.1:8000/division/
+Content-Type: application/json
+
+{
+  "num1" : 100,
+  "num2" :25
+}
+
+###
+POST http://127.0.0.1:8000/modulus/
+Content-Type: application/json
+
+{
+  "num1" : 100,
+  "num2" : 25
+}
+
+###
+POST http://127.0.0.1:8000/BMI/
+Content-Type: application/json
+
+{
+  "height" : 160,
+  "weight" : 60
+  
+}
+
+###
+POST http://127.0.0.1:8000/age/
+Content-Type: application/json
+
+{
+  "birth_year" : 2000,
+  "current_year" : 2026
+  
+}
+
+
+###
+POST http://127.0.0.1:8000/mark/
+Content-Type: application/json
+
+{
+  "obtained_mark" : 400,
+  "total_mark" : 500
+  
+}
+
+###
+POST http://127.0.0.1:8000/area/
+Content-Type: application/json
+
+{
+    "length": 10,
+    "width": 5
+}
+
+
+###
+POST http://127.0.0.1:8000/intrest/
+Content-Type: application/json
+
+{
+    "principal": 10000,
+    "rate": 5,
+    "time":2
+}
